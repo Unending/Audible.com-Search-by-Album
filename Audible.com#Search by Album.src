@@ -347,8 +347,10 @@ endif
 # set title
 outputto "title"
 sayoutput "album"
-say ": "
-sayoutput "subtitle"
+ifoutput "subtitle"
+	say ": "
+	sayoutput "subtitle"
+endif
 
 # Set Discnumber
 #outputto "DISCNUMBER"
