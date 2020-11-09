@@ -206,7 +206,9 @@ if "seriesLabel"
 	sayoutput "series-part"
 	IfnotOutput "Subtitle"
 		outputto "subtitle"
-		sayoutput "CONTENTGROUP"
+    		sayoutput "series"
+    		say ", Book "
+		sayoutput "series-part"
 	else
 	endif
 else
